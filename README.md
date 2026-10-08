@@ -184,9 +184,10 @@ print("✓ TC06 Passed: Element located using starts-with() XPath")
 ```
 # output:
 <img width="1892" height="1013" alt="image" src="https://github.com/user-attachments/assets/219ce5c1-cc5e-4769-b292-8eda134f401c" />
+
 # Task-07:
 # Code:
-```
+~~~
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -209,9 +210,10 @@ email_field.send_keys("teststudent@example.com")
 time.sleep(4)
 
 print("✓ TC07 Passed: Input located using two attributes with 'and'")
-```
+~~~
 # output:
 <img width="1912" height="1026" alt="image" src="https://github.com/user-attachments/assets/3d8bfcde-c0bc-4749-aa0d-926a2327e62c" />
+
 # Task-08:
 # code:
 ```
@@ -240,6 +242,7 @@ print("✓ TC08 Passed: Element located using 'or' alternative XPath")
 ```
 # output:
 <img width="1913" height="1017" alt="image" src="https://github.com/user-attachments/assets/420643bd-1a5a-4333-9601-b8b38944875b" />
+
 # Task9:
 # code:
 ```
@@ -269,6 +272,7 @@ print(f"  Form ID  : {user_form.get_attribute('id')}")
 ```
 # output:
 <img width="1908" height="1010" alt="image" src="https://github.com/user-attachments/assets/d52ff0a4-6e97-4405-b0e5-a6201bd64339" />
+
 # Task 10:
 # code:
 ```
@@ -320,6 +324,7 @@ print(len(child_inputs))
 ```
 # output:
 <img width="663" height="60" alt="image" src="https://github.com/user-attachments/assets/da660faa-d8d1-4f76-aea2-f292b6b9d611" />
+
 # Task 12:
 # code:
 ```
@@ -351,7 +356,9 @@ print("✓ TC12 Passed: Next element located using following axis")
 print(f"  Field Placeholder: {last_name.get_attribute('placeholder')}")
 ```
 # output:
+
 <img width="693" height="65" alt="image" src="https://github.com/user-attachments/assets/517ca39d-0f35-4b20-b625-155743ac3700" />
+
 # Task 13:
 # code:
 ```
@@ -383,6 +390,7 @@ time.sleep(2)
 print("✓ TC13 Passed: Checkbox located and checked using Attribute XPath")
 ```
 # output:
+
 <img width="1917" height="1026" alt="image" src="https://github.com/user-attachments/assets/3ad84f96-3836-4a7a-a5b0-fc4751c9d840" />
 
 
@@ -413,9 +421,13 @@ time.sleep(2)
 print("✓ TC14 Passed: Radio button selected using Attribute XPath")
 ```
 # output:
+
 <img width="1911" height="1017" alt="image" src="https://github.com/user-attachments/assets/62e48109-e7b5-44a7-8a27-6fc56277add1" />
+
 # Task -15:
+
 # code:
+
 ```
 import time
 from selenium import webdriver
@@ -467,6 +479,7 @@ time.sleep(2)
 print("✓ TC15 Passed: Dropdown selected using XPath + Select class")
 ```
 # output:
+
 <img width="1917" height="1020" alt="image" src="https://github.com/user-attachments/assets/9d4e8fa0-1a10-490d-a0e6-6fa6816bcf65" />
 
 # Task -16:
@@ -556,6 +569,7 @@ print("✓ TC17 Passed: Submission message verified using text() XPath!")
 print(f"  Verified Message: '{actual_text}'")
 ```
 # output:
+
 <img width="1901" height="1018" alt="image" src="https://github.com/user-attachments/assets/a39a31e8-9734-4fdf-b367-95c4bb54020f" />
 
 # Task -18:
@@ -599,7 +613,9 @@ for index, element in enumerate(all_inputs, start=1):
 <img width="685" height="200" alt="image" src="https://github.com/user-attachments/assets/acb42a60-9ba4-4b65-978c-8af95404d87a" />
 
 # Task -19:
+
 # code:
+
 ```
 import time
 from selenium import webdriver
@@ -634,10 +650,13 @@ time.sleep(2)
 print("✓ TC19 Passed: Dynamic element located using contains() XPath")
 print(f"  Located Element ID: {dynamic_email.get_attribute('id')}")
 ```
+
 # output:
+
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/f1693799-0829-4656-b205-0cb67cac3ca5" />
 
 # Task -20:
+
 # code:
 ```
 import os
@@ -786,5 +805,8 @@ finally:
     time.sleep(4)
     driver.quit()
 ```
+
+
 # output:
+
 <img width="1916" height="1023" alt="image" src="https://github.com/user-attachments/assets/ca7c6c3a-f9c3-4d79-b51c-07efb5e224f9" />
