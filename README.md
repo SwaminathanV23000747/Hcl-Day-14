@@ -1,4 +1,4 @@
-<img width="1917" height="1022" alt="image" src="https://github.com/user-attachments/assets/b32e7123-b545-4ba2-a89b-34e8329ad305" /># Hcl-Day-14
+
 # Task-1:
 # code:
 ```
@@ -155,4 +155,11 @@ print("✓ TC06 Passed: Element located using starts-with() XPath")
 ```
 # output:
 <img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/a8d09ec4-c340-4f6f-a58d-2aac56dd2019" />
+
+# Task-6:
+# code:
+```
+
+```
+# output:
 
